@@ -1,5 +1,36 @@
-.App {
-  text-align: center;
+/* css variables */
+:root {
+  --body-bg-color: #05043e;
+  --card-primary-color: #151450;
+  --card-secondary-color: #211c5c;
+  --btn-bg-color: #7259db;
+  --secondary-color: #7259db;
+  --icon-bg-01: #f7a025;
+  --icon-bg-02: #2d70ab;
+  --icon-bg-03: #fe1161;
+  --icon-bg-04: #0389fe;
+
+  --text-small: 1rem;
+  --text-heading: 2rem;
 }
 
+/* reset default browser design */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* base style */
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  background: wheat;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: white;
+}
